@@ -47,10 +47,11 @@ namespace EmployeeInformationApp
         {
             firstNameTextBox.Clear();
             middleNameTextBox.Clear();
-            lastNameTextBox.
+            lastNameTextBox.Clear();
+            addressTextBox.Clear();
+            emailTextBox.Clear();
+            phoneTextBox.Clear();
+            salaryTextBox.Clear();
         }
-
-
-
     }
 }
