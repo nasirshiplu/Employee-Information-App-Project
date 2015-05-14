@@ -43,6 +43,16 @@
             this.emailTextBox = new System.Windows.Forms.TextBox();
             this.phoneTextBox = new System.Windows.Forms.TextBox();
             this.salaryTextBox = new System.Windows.Forms.TextBox();
+            this.showOutputListView = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.deleteButton = new System.Windows.Forms.Button();
+            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // saveButton
@@ -167,11 +177,87 @@
             this.salaryTextBox.Size = new System.Drawing.Size(232, 20);
             this.salaryTextBox.TabIndex = 6;
             // 
+            // showOutputListView
+            // 
+            this.showOutputListView.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.showOutputListView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader8,
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3,
+            this.columnHeader4,
+            this.columnHeader5,
+            this.columnHeader6,
+            this.columnHeader7});
+            this.showOutputListView.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.showOutputListView.FullRowSelect = true;
+            this.showOutputListView.GridLines = true;
+            this.showOutputListView.Location = new System.Drawing.Point(355, 1);
+            this.showOutputListView.Name = "showOutputListView";
+            this.showOutputListView.Size = new System.Drawing.Size(540, 494);
+            this.showOutputListView.TabIndex = 8;
+            this.showOutputListView.UseCompatibleStateImageBehavior = false;
+            this.showOutputListView.View = System.Windows.Forms.View.Details;
+            this.showOutputListView.SelectedIndexChanged += new System.EventHandler(this.showOutputListView_SelectedIndexChanged);
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "First Name";
+            this.columnHeader1.Width = 71;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Middle Name";
+            this.columnHeader2.Width = 77;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Last Name";
+            this.columnHeader3.Width = 69;
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Address";
+            this.columnHeader4.Width = 84;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Email";
+            this.columnHeader5.Width = 90;
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "Phone";
+            this.columnHeader6.Width = 82;
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.Text = "salary";
+            this.columnHeader7.Width = 136;
+            // 
+            // deleteButton
+            // 
+            this.deleteButton.Location = new System.Drawing.Point(159, 222);
+            this.deleteButton.Name = "deleteButton";
+            this.deleteButton.Size = new System.Drawing.Size(75, 23);
+            this.deleteButton.TabIndex = 9;
+            this.deleteButton.Text = "Delete";
+            this.deleteButton.UseVisualStyleBackColor = true;
+            this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
+            // 
+            // columnHeader8
+            // 
+            this.columnHeader8.DisplayIndex = 7;
+            this.columnHeader8.Text = "ID";
+            // 
             // EmployeeInformationUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(449, 372);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(898, 496);
+            this.Controls.Add(this.deleteButton);
+            this.Controls.Add(this.showOutputListView);
             this.Controls.Add(this.salaryTextBox);
             this.Controls.Add(this.phoneTextBox);
             this.Controls.Add(this.emailTextBox);
@@ -187,8 +273,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.saveButton);
+            this.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.Name = "EmployeeInformationUI";
             this.Text = "Employee Information UI";
+            this.Load += new System.EventHandler(this.EmployeeInformationUI_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -211,6 +299,16 @@
         private System.Windows.Forms.TextBox emailTextBox;
         private System.Windows.Forms.TextBox phoneTextBox;
         private System.Windows.Forms.TextBox salaryTextBox;
+        private System.Windows.Forms.ListView showOutputListView;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.ColumnHeader columnHeader5;
+        private System.Windows.Forms.ColumnHeader columnHeader6;
+        private System.Windows.Forms.ColumnHeader columnHeader7;
+        private System.Windows.Forms.Button deleteButton;
+        private System.Windows.Forms.ColumnHeader columnHeader8;
     }
 }
 

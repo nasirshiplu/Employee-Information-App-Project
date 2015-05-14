@@ -7,3 +7,12 @@ E:\NASIR\13.05.2015\EmployeeInformationApp\EmployeeInformationApp\bin\Debug\Empl
 E:\NASIR\13.05.2015\EmployeeInformationApp\EmployeeInformationApp\bin\Debug\EmployeeInformationApp.pdb
 E:\NASIR\13.05.2015\EmployeeInformationApp\EmployeeInformationApp\obj\Debug\EmployeeInformationApp.exe
 E:\NASIR\13.05.2015\EmployeeInformationApp\EmployeeInformationApp\obj\Debug\EmployeeInformationApp.pdb
+D:\BITM  FILE\BITM Basis\BITM\Assignment Text File\EmployeeInformationAppProject\Employee-Information-App-Project\EmployeeInformationApp\bin\Debug\EmployeeInformationApp.exe.config
+D:\BITM  FILE\BITM Basis\BITM\Assignment Text File\EmployeeInformationAppProject\Employee-Information-App-Project\EmployeeInformationApp\obj\Debug\EmployeeInformationApp.exe
+D:\BITM  FILE\BITM Basis\BITM\Assignment Text File\EmployeeInformationAppProject\Employee-Information-App-Project\EmployeeInformationApp\bin\Debug\EmployeeInformationApp.exe
+D:\BITM  FILE\BITM Basis\BITM\Assignment Text File\EmployeeInformationAppProject\Employee-Information-App-Project\EmployeeInformationApp\bin\Debug\EmployeeInformationApp.pdb
+D:\BITM  FILE\BITM Basis\BITM\Assignment Text File\EmployeeInformationAppProject\Employee-Information-App-Project\EmployeeInformationApp\obj\Debug\EmployeeInformationApp.EmployeeInformationUI.resources
+D:\BITM  FILE\BITM Basis\BITM\Assignment Text File\EmployeeInformationAppProject\Employee-Information-App-Project\EmployeeInformationApp\obj\Debug\EmployeeInformationApp.Properties.Resources.resources
+D:\BITM  FILE\BITM Basis\BITM\Assignment Text File\EmployeeInformationAppProject\Employee-Information-App-Project\EmployeeInformationApp\obj\Debug\EmployeeInformationApp.csproj.GenerateResource.Cache
+D:\BITM  FILE\BITM Basis\BITM\Assignment Text File\EmployeeInformationAppProject\Employee-Information-App-Project\EmployeeInformationApp\obj\Debug\EmployeeInformationApp.pdb
+D:\BITM  FILE\BITM Basis\BITM\Assignment Text File\EmployeeInformationAppProject\Employee-Information-App-Project\EmployeeInformationApp\obj\Debug\EmployeeInformationApp.csprojResolveAssemblyReference.cache
